@@ -17,6 +17,7 @@ Int_Descr struc	; Структура для описания декскрипт�
 	offs_h 	dw 0 	; Смещение в сегменте, верхняя часть
 Int_Descr ends
 
+; PM_Seg
 PM_seg	SEGMENT PARA PUBLIC 'CODE' USE32
 ASSUME	CS:PM_seg
 
